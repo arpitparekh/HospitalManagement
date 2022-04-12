@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "452160276624",
+    "project_id": "hospitalmanagement-b065d",
+    "storage_bucket": "hospitalmanagement-b065d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452160276624:android:8e08053fbcdd0ff83ef015",
+        "android_client_info": {
+          "package_name": "arpit.hospitalmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452160276624-kgen6qi9vulpju0i1vti194963vsffud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "arpit.hospitalmanagement",
+            "certificate_hash": "d410abf82e931608878e7f22fd2ff339471aebac"
+          }
+        },
+        {
+          "client_id": "452160276624-it68gts22dr0qp47ev79592f54sg57ri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaQcFoUU3YFsQoBsM-Ehjhj1M1jqXt72U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452160276624-it68gts22dr0qp47ev79592f54sg57ri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
