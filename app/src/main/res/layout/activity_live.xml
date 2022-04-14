@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".firebase_realtime_database.LiveActivity">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:id="@+id/edtDoctorName"
+            android:hint="Doctor Name"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtDoctorName"
+            android:hint="Degree"
+            android:id="@+id/edtDoctorDegree"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_below="@id/edtDoctorDegree"
+            android:hint="Field"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtDoctorField"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_below="@id/edtDoctorField"
+            android:hint="HospitalName"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtHospital"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+            android:layout_below="@id/edtHospital"
+            android:id="@+id/btnSend"
+                android:text="Send"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="20dp"
+            android:layout_below="@id/btnSend"
+            app:cardUseCompatPadding="true"
+            android:id="@+id/cvList"
+            android:layout_height="wrap_content">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/recyclerView"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>
