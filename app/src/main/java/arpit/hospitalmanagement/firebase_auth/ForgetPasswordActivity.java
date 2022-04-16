@@ -1,4 +1,4 @@
-package arpit.hospitalmanagement.firebase;
+package arpit.hospitalmanagement.firebase_auth;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

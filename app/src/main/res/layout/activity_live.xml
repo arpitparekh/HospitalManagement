@@ -45,7 +45,6 @@
             android:layout_width="match_parent"
             app:cardCornerRadius="20dp"
             android:layout_below="@id/btnSend"
-            app:cardUseCompatPadding="true"
             android:id="@+id/cvList"
             android:layout_height="wrap_content">
 

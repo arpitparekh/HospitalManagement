@@ -23,13 +23,13 @@
 
         </activity>
         <activity
-            android:name=".firebase.ForgetPasswordActivity"
+            android:name=".firebase_auth.ForgetPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".firebase.SignupActivity"
+            android:name=".firebase_auth.SignupActivity"
             android:exported="true" />
         <activity
-            android:name=".firebase.LoginActivity"
+            android:name=".firebase_auth.LoginActivity"
             android:exported="true">
 
         </activity>
