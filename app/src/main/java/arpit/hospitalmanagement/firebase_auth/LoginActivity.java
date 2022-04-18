@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
@@ -44,6 +45,12 @@ public class LoginActivity extends AppCompatActivity {
 
             String password = binding.edtPasswordLogin.getText().toString();
 
+            if(email.equals("admin") && password.equals("admin")){
+
+
+
+            }
+
             if(!email.isEmpty() && !password.isEmpty()){
 
                 auth.signInWithEmailAndPassword(email,password).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
@@ -78,6 +85,15 @@ public class LoginActivity extends AppCompatActivity {
 
             startActivity(new Intent(this,ForgetPasswordActivity.class));
 
+        });
+
+        binding.btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                auth.signOut();
+
+            }
         });
 
     }
